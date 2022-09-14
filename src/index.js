@@ -2,12 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Example from './App';
 import reportWebVitals from './reportWebVitals';
+import FrontPage from './pages/frontPage/FrontPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <FrontPage />
   </React.StrictMode>
 );
 
