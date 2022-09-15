@@ -1,3 +1,10 @@
-.cname {
+.top-modal {
+    margin: auto;
+    width: 50%;
+}
+.welcome {
+    margin: auto;
+    width: 50%;
     color: blue;
+    font: bold;
 }
