@@ -1,19 +1,19 @@
 import React, {useState} from 'react';
-import logo from './logo.svg';
+import WeatherAPI from './API/WeatherAPI';
 import './App.css';
+import FrontPage from './pages/frontPage/FrontPage';
 
-function Example() {
-  // Declare a new state variable, which we'll call "count"  const [count, setCount] = useState(0);
-  const [count, setCount] = useState(0);
-  console.dir(count);
-  return (
-    <div>
-      <p>You clicked {count} times</p>
-      <button onClick={() => setCount(count + 1)}> 
-        Click me
-      </button>
-      <br></br>
-    </div>
-  );
- }
-export default Example;
+class App extends React.Component {
+
+
+  render() {
+    return (
+      <div>
+        <FrontPage/>
+        <WeatherAPI/>
+      </div>
+    )
+    
+  }
+}
+export default App;
