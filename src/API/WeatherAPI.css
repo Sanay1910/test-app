@@ -1,0 +1,24 @@
+.time-header{
+    background-color: aqua;
+    position: relative;
+    width: 20%;
+    margin: auto;
+    text-align: center;
+}
+.time-table {
+    background-color: aqua;
+    position: relative;
+    width: 20%;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+
+.temp-table {
+    background-color: gray;
+    position: relative;
+    width: 20%;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
